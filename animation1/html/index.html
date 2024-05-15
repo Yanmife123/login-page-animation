@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/animation1/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="Home">
+      <div class="container">
+        <div class="header-container">
+          <div class="header-container-2">
+            <div id="animation-box"></div>
+            <div class="header" id="login">login</div>
+            <div class="header" id="sign">Sign-up</div>
+          </div>
+        </div>
+        <form action="">
+          <div class="input-container">
+            <input
+              type="text"
+              class="input"
+              id="Username"
+              placeholder="Username"
+              minlength="7"
+              required=""
+              aria-invalid="true"
+            />
+          </div>
+          <div class="input-container">
+            <input
+              type="password"
+              class="input"
+              id="password"
+              placeholder="Password"
+              required=""
+              aria-invalid="true"
+            />
+          </div>
+          <div class="forgotten"><a href="">Forgotten password</a></div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section class="hidden" id="Home">
+      <div class="container">
+        <div class="header-container">
+          <div class="header">login</div>
+        </div>
+        <form action="">
+          <div>
+            <input
+              type="text"
+              class="sign-up-input"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              class="sign-up-input"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="forgotten"><a href="">Forgotten password</a></div>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <script src="/animation1/js/script.js"></script>
+  </body>
+</html>
